@@ -26,7 +26,7 @@ int main() {
 
     int* A = new int[N];
 
-    for (int i = 0; i < N; i++) {
+    for (i = 0; i < N; i++) {
         cout << "Элемент " << i + 1 << ": ";
         cin >> A[i];
     }
