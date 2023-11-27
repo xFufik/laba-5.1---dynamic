@@ -26,6 +26,8 @@ int main() {
 
     int* A = new int[N];
 
+    cout << "Введите элементы массива: " << endl;
+
     for (i = 0; i < N; i++) {
         cout << "Элемент " << i + 1 << ": ";
         cin >> A[i];
