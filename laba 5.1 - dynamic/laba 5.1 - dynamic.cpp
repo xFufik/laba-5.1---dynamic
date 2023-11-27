@@ -48,6 +48,5 @@ int main() {
     }
     cout << "Количество убывающих участков: " << kol;
 
-    return 0;
     delete[] A;
 }
